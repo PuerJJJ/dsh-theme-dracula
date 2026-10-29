@@ -1,0 +1,43 @@
+{
+  "name": "dsh-theme-dracula",
+  "version": "0.1.0",
+  "description": "Dracula color theme for DeepSeek Harness: a token-level reskin of the whole Web GUI, switchable in Settings → General.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "dsh.bundle.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek",
+    "dsh",
+    "plugin",
+    "theme",
+    "dracula"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./dsh.bundle.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "author": "PuerJJJ (https://github.com/PuerJJJ)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PuerJJJ/dsh-theme-dracula.git"
+  },
+  "homepage": "https://github.com/PuerJJJ/dsh-theme-dracula#readme",
+  "bugs": {
+    "url": "https://github.com/PuerJJJ/dsh-theme-dracula/issues"
+  }
+}

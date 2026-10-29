@@ -1,0 +1,8 @@
+# dsh-theme-dracula bundle layer.
+# Applied when the profile's package.json lists dsh-theme-dracula in
+# dsh.profile.bundles (see "Install" in README.md). One entry: the host half
+# injects the palette stylesheet and the pre-paint boot script; the client half
+# (package.json exports["./client"]) adds the Settings -> General toggle.
+- insert:
+    - id: theme-dracula
+      name: dsh-theme-dracula
