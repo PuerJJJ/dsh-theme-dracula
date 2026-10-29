@@ -1,6 +1,6 @@
 {
   "name": "dsh-theme-dracula",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dracula color theme for DeepSeek Harness: a token-level reskin of the whole Web GUI, switchable in Settings → General.",
   "type": "module",
   "main": "lib/index.js",
