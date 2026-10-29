@@ -76,6 +76,9 @@ node scripts/install.mjs --profile desktop --uninstall --apply
 | 链接 / 焦点 | `--dsw-alias-link`、`--dsw-alias-state-business-primary` | `#8be9fd` |
 | 成功 / 警告 / 错误 | `--dsw-alias-state-success-primary` 等 | `#50fa7b` / `#ffb86c` / `#ff5555` |
 | 代码高亮 | `--shiki-token-keyword`、`-string`、`-comment`、`-function`、`-parameter` | `#ff79c6` / `#f1fa8c` / `#6272a4` / `#50fa7b` / `#8be9fd` |
+| 文字选区 | `::selection` | `#bd93f9` 42% 叠底 |
+
+> 选区没有直接用 Dracula 的选中色 `#44475a`：行内代码的背景也是这个值，选中命令时高亮会和底色糊在一起。改成 42% 的紫色叠底后，在页面、卡片、代码块上都还能看清选了什么。
 
 ## 和 draculatheme.com/deepseek 的关系 / Relation to the official port
 
